@@ -2,7 +2,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render
 from django.http import HttpResponseBadRequest
 
-from text_extractor import handle_uploaded_file, check_file
+from .text_extractor import handle_uploaded_file, check_file
 
 
 @csrf_exempt
